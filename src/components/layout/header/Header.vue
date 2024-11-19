@@ -26,8 +26,8 @@ import IconPark from '@/components/common/IconPark.vue'
 import { Left, Right } from '@icon-park/vue-next'
 import { useMenu } from '@/components/layout/menu/useMenu'
 import SearchPop from './SearchPop.vue'
-import en from "element-plus/lib/locale/lang/en";
-import zhCn from "element-plus/lib/locale/lang/zh-cn";
+import zhCn from "element-plus/dist/locale/zh-cn.mjs";
+import en from "element-plus/dist/locale/en.mjs";
 import { language } from '@/utils/injectionKey';
 
 let local = inject(language)

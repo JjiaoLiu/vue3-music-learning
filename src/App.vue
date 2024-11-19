@@ -20,7 +20,7 @@
 // const person = reactive<Person>({ name: '1', name2: '1', name3: '1' })
 // const person: Person = reactive<Person>({ name: '1', name2: '1', name3: '1' })
 import { language } from '@/utils/injectionKey'
-import zhCn from "element-plus/lib/locale/lang/zh-cn";
+import zhCn from "element-plus/dist/locale/zh-cn.mjs";
 
 const local = ref(zhCn)
 
