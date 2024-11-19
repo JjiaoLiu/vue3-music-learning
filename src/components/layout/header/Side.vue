@@ -1,6 +1,7 @@
 <template>
     <div class="py-2">
         <user-info />
+        <van-button type="danger">危险按钮</van-button>
         <side-menu></side-menu>
 
       

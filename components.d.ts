@@ -44,6 +44,7 @@ declare module '@vue/runtime-core' {
     SideMenu: typeof import('./src/components/layout/menu/SideMenu.vue')['default']
     SuggestOption: typeof import('./src/components/layout/header/suggestOption.vue')['default']
     UserInfo: typeof import('./src/components/layout/header/UserInfo.vue')['default']
+    VanButton: typeof import('vant/es')['Button']
   }
   export interface ComponentCustomProperties {
     vLoading: typeof import('element-plus/es')['ElLoadingDirective']
