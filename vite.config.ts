@@ -10,6 +10,7 @@ import ElementPlus from "unplugin-element-plus/vite";
 // import { VantResolver } from '@vant/auto-import-resolver';
 import Inspect from "vite-plugin-inspect";
 import postcsspxtoviewport from 'postcss-px-to-viewport-8-plugin'
+import tailwindcss from 'tailwindcss'
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -71,6 +72,10 @@ export default defineConfig({
     },
     postcss: {
       plugins: [
+        tailwindcss({
+          config: './tailwind.config.js', // 指定tailwind配置文件路径
+          css: ['./src/style.scss'], // 指定tailwind处理的文件
+        }),
         postcsspxtoviewport({
           unitToConvert: 'px', // 需要转换的单位，默认为"px"，将 px 单位转换为视口单位的 (vw, vh, vmin, vmax)
           viewportWidth: file => {
