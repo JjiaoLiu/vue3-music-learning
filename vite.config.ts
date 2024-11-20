@@ -9,6 +9,7 @@ import { ElementPlusResolver, VantResolver } from "unplugin-vue-components/resol
 import ElementPlus from "unplugin-element-plus/vite";
 // import { VantResolver } from '@vant/auto-import-resolver';
 import Inspect from "vite-plugin-inspect";
+import postcsspxtoviewport from 'postcss-px-to-viewport-8-plugin'
 
 // https://vitejs.dev/config/
 export default defineConfig({
