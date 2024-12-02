@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@icon-park/vue-next": "^1.4.2",
+    "@minko-fe/postcss-pxtoviewport": "^1.5.0",
     "@types/lodash": "^4.17.13",
     "@vueuse/components": "^9.13.0",
     "@vueuse/core": "^9.13.0",
@@ -22,6 +23,7 @@
     "postcss-px-to-viewport-8-plugin": "^1.2.5",
     "vant": "^4.9.9",
     "vite-plugin-inspect": "^0.7.42",
+    "vite-plugin-svg-icons": "^2.0.1",
     "vue": "^3.5.13",
     "vue-router": "^4.4.5"
   },

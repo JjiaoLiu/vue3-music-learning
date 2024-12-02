@@ -43,6 +43,7 @@ declare module '@vue/runtime-core' {
     Side: typeof import('./src/components/layout/header/Side.vue')['default']
     SideMenu: typeof import('./src/components/layout/menu/SideMenu.vue')['default']
     SuggestOption: typeof import('./src/components/layout/header/suggestOption.vue')['default']
+    SvgIcon: typeof import('./src/components/SvgIcon.vue')['default']
     UserInfo: typeof import('./src/components/layout/header/UserInfo.vue')['default']
     VanButton: typeof import('vant/es')['Button']
   }
